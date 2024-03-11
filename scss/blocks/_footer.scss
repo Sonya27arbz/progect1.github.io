@@ -1,0 +1,75 @@
+.footer {
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    display: flex;
+
+    .text__left {
+        margin-left: 8vw;
+        width: 24.48vw;
+
+        h1 {
+            color: #1C2323;
+            font-weight: 800;
+            font-size: 3.65vw;
+        }
+
+        p {
+            color: #486958;
+            font-weight: 500;
+            font-size: 1.30vw;
+            margin-top: 1vw;
+            margin-right: 1vw;
+        }
+
+        img {
+            margin-top: 1.5vw;
+            width: 7.03vw;
+        }
+    }
+
+    .contact__form {
+        width: 57.76vw;
+        height: 23.44vw;
+        border: 0.13vw solid #486958;
+        margin-top: -1vw;
+        margin-left: 3vw;
+        vertical-align: top;
+    }
+    .form{
+        margin-left: 3vw;
+        margin-right: 13vw;
+        margin-top: 3vw;
+        border-bottom: 0.13vw solid black;
+        padding-bottom: 1vw;
+        width: 52.08vw;
+        height: 3.39vw;
+    }
+    .form::placeholder{
+        font-size: 1.30vw;
+        color: #486958;
+    }
+    .description__form{
+        border: none;
+        width: 26.08vw;
+    }
+    .button__form{
+        margin-left: 40vw;
+        margin-top: -1vw;
+    }
+    .button-down_active {
+        font-size: 1.3vw;
+        color: #FFFF;
+        background-color: $blue;
+        padding: 1vw 4vw;
+        border-radius: 1.04vw 0.52vw 0.26vw 0;
+
+    }
+
+    .button-down_active:link {
+        color: #FFFF;
+    }
+
+    .button-down_active:hover {
+        border: 0.3vw solid $blue;
+    }
+}

@@ -1,0 +1,129 @@
+.header__top {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    .logo {
+        margin-top: 2.5vw;
+        margin-left: 8vw;
+        margin-right: 13vw;
+        width: 8.96vw;
+        height: 5.99vw;
+    }
+
+    .logo__img {
+        height: 3vw;
+        width: 8.18vw;
+    }
+
+    .menu {
+        margin-top: 3vw;
+    }
+
+    .menu__list-item {
+        padding: 0.26vw;
+        display: inline;
+        margin-right: 5vw;
+    }
+
+    .menulink_active {
+        font-size: 1.3vw;
+
+    }
+
+    .menulink_active:link {
+        color: #404242;
+    }
+
+    .menulink_active:visited {
+        color: #404242;
+    }
+
+    .menulink_active:hover {
+        color: $blue;
+        padding-bottom: 0.26vw;
+        border-bottom: 0.2vw solid #FEC62D;
+    }
+
+    .button {
+        margin-top: 2vw;
+        padding: 1vw 4vw;
+        border-radius: 0.63vw;
+        width: 23.31vw;
+        height: 8.85vw;
+    }
+
+    .button__link_active {
+        font-size: 1.3vw;
+        color: #FFFF;
+        background-color: $blue;
+        padding: 1vw 4vw;
+        border-radius: 0.63vw;
+
+    }
+
+    .button__link_active:link {
+        color: #FFFF;
+    }
+
+    .button__link_active:hover {
+        border: 0.3vw solid $blue;
+    }
+}
+
+.header__content {
+    .header__img {
+        margin-top: 10vw;
+        margin-left: 55vw;
+        margin-right: 4vw;
+    }
+
+    .img-1 {
+        height: 35vw;
+    }
+
+    .header__title {
+        margin-top: -33vw;
+        margin-left: 8vw;
+        margin-right: 55vw;
+    }
+
+    h1 {
+        font-size: 3.6vw;
+        font-weight: 700;
+        color: #1C2323;
+    }
+
+    .header__text {
+        margin-left: 8vw;
+        margin-right: 54vw;
+        margin-top: 3vw;
+        color: #404242;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+    button {
+        margin-left: 8vw;
+        margin-top: 3.5vw;
+    }
+
+    .button-down_active {
+        font-size: 1.3vw;
+        color: #FFFF;
+        background-color: $blue;
+        padding: 1vw 4vw;
+        border-radius: 1.04vw 0.52vw 0.26vw 0;
+
+    }
+
+    .button-down_active:link {
+        color: #FFFF;
+    }
+
+    .button-down_active:hover {
+        border: 0.3vw solid $blue;
+    }
+}

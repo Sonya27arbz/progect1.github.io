@@ -1,0 +1,96 @@
+.section-1 {
+    margin-top: 10vw;
+
+    .title {
+        margin-left: 1vw;
+    }
+
+    .h1__title {
+        font-size: 3.6vw;
+        font-weight: 700;
+        text-align: center;
+        color: #1C2323;
+    }
+
+    .text-under {
+        p {
+            color: #404242;
+            font-size: 1.56vw;
+            margin-top: 2vw;
+            margin-left: 35vw;
+            margin-right: 35vw;
+            text-align: center;
+        }
+    }
+
+    .section-1__content {
+        background-color: #CCF0E6;
+        margin-top: 3vw;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        height: 18.23vw;
+        width: 85vw;
+
+        .img-long {
+            width: 55.36vw;
+            height: 18.23vw;
+        }
+
+        .text-in {
+            margin-left: 61vw;
+            margin-right: 7.3vw;
+            margin-top: -13.2vw;
+
+            p {
+                font-size: 1.04vw;
+                color: #486958;
+                text-align: left;
+            }
+
+            h2 {
+                color: #486958;
+                font-weight: 700;
+                font-size: 1.04vw;
+                margin-top: 1.5vw;
+                letter-spacing: 0.2vw;
+
+            }
+        }
+
+        .circle {
+            margin-left: 52.3vw;
+            margin-top: -4vw;
+            width: 6.67vw;
+        }
+    }
+
+    .img__base {
+        margin-top: 8vw;
+        margin-left: 8vw;
+
+        img {
+            width: 33.44vw;
+            height: 33.85vw;
+        }
+    }
+
+    .text__base {
+        h1 {
+            font-weight: 700;
+            font-size: 2.08vw;
+            margin-top: -34vw;
+            margin-left: 48vw;
+            margin-right: 25vw;
+            color: #1C2323;
+        }
+
+        p {
+            color: #486958;
+            font-weight: 500;
+            font-size: 1.56vw;
+            margin-left: 48vw;
+            margin-right: 14.55vw;
+            margin-top: 3vw;
+        }
+    }
+}

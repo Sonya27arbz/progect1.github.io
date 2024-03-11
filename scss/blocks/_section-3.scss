@@ -1,0 +1,123 @@
+.section-3 {
+    margin-top: 15vw;
+
+    .sec-3__title {
+        margin-bottom: 6vw;
+
+        h1 {
+            color: #1C2323;
+            font-weight: 800;
+            font-size: 3.65vw;
+            margin-left: 37vw;
+        }
+    }
+
+    .conteiner-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 8vw;
+        margin-right: 8vw;
+
+        .img4 {
+            width: 17.71vw;
+            height: 11.46vw;
+        }
+
+        .one-img {
+            width: 12.50vw;
+            height: 12.50vw;
+            margin-top: -3.5vw;
+            margin-right: -8.33vw;
+        }
+
+        .two-img {
+            width: 12.34vw;
+            height: 4.69vw;
+            margin-right: -6.77vw;
+            margin-top: -0.5vw;
+        }
+
+        .three-img {
+            width: 15.42vw;
+            height: 2.29vw;
+            margin-right: -6.77vw;
+        }
+
+        .four-img {
+            width: 10.31vw;
+            height: 6.77vw;
+            margin-top: -2vw;
+        }
+    }
+
+    .sec-3__content {
+        width: 83.96vw;
+        height: 36.46vw;
+        background-color: #CCF0E6;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-top: 3vw;
+
+        img {
+            width: 32.03vw;
+            height: 36.46vw;
+        }
+
+        .text__top {
+            display: flex;
+            flex-direction: row;
+            margin-top: -33vw;
+            margin-left: 40vw;
+
+            h1 {
+                color: #58A9A5;
+                font-weight: 800;
+                font-size: 3.65vw;
+            }
+
+            h2 {
+                color: #58A9A5;
+                font-weight: 700;
+                font-size: 1.56vw;
+                margin-top: -0.6vw;
+            }
+
+            .number-2 {
+                margin-left: 3.5vw;
+            }
+        }
+
+        .text__under {
+            margin-left: 36vw;
+            margin-right: 13vw;
+            margin-top: 5vw;
+
+            p {
+                color: #486958;
+                font-weight: 500;
+                font-size: 1.30vw;
+                margin-bottom: 2vw;
+                position: relative;
+                z-index: 2;
+                margin-left: 4vw;
+            }
+
+            h5 {
+                color: $blue;
+                font-weight: 500;
+                font-size: 1.30vw;
+                margin-left: 4vw;
+            }
+
+            img {
+                width: 6.93vw;
+                height: 6.33vw;
+                margin-top: -16vw;
+                margin-right: 2vw;
+                z-index: -1;
+            }
+        }
+    }
+}

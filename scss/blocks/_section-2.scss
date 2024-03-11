@@ -1,0 +1,92 @@
+.section-2 {
+    margin-top: 15vw;
+
+    .sec-2__title {
+        font-weight: 800;
+        font-size: 3.65vw;
+        color: #1C2323;
+        margin-left: 37vw;
+    }
+
+    p {
+        color: #404242;
+        font-weight: 400;
+        font-size: 1.56vw;
+        margin-left: -3vw;
+        margin-top: 2vw;
+    }
+
+    img {
+        width: 7.03vw;
+        margin-top: 2vw;
+        margin-left: 7.5vw;
+    }
+
+    .section-2__content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-top: 3vw;
+        flex-basis: 23.44vw;
+
+        h1 {
+            color: $blue;
+            font-weight: 700;
+            font-size: 2.08vw;
+        }
+
+        p {
+            color: #486958;
+            font-weight: 500;
+            font-size: 1.04vw;
+            margin-top: 0.5vw;
+        }
+
+        img {
+            width: 23.44vw;
+            height: 23.44vw;
+        }
+
+        .card-1 {
+            p {
+                margin-right: 57vw;
+                margin-left: 0vw;
+            }
+
+            img {
+                margin-left: 0vw;
+            }
+        }
+
+        .card-2 {
+            margin-top: -35vw;
+            margin-left: 21vw;
+
+            h1 {
+                margin-left: 8vw;
+                margin-top: 2vw;
+            }
+
+            p {
+                margin-left: 8vw;
+                margin-right: 29vw;
+            }
+        }
+
+        .card-3 {
+            margin-top: -34.5vw;
+            margin-left: 50vw;
+
+            h1 {
+                margin-left: 7.5vw;
+            }
+
+            p {
+                margin-left: 7.5vw;
+            }
+        }
+    }
+}
